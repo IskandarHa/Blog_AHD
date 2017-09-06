@@ -1,5 +1,5 @@
 <?php
-require_once("model/connection_sql.php");
+
 
 if (!isset($_GET['section']) OR $_GET['section'] == 'index')
 {
