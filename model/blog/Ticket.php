@@ -11,7 +11,7 @@ class Ticket
 
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getId()
     {
@@ -19,7 +19,7 @@ class Ticket
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getTitle()
     {
