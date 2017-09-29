@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+<nav>
+    <div>
+        <a href="/">AHD Blog</a>
+        <div>
+            <ul>
+                <li>
+                    <a href="/">Accueil</a>
+                </li>
+                <li>
+                    <a href="/blogs">Blog</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div>
+        <div>
+            <h1>Le blog qu'il vous faut !</h1>
+        </div>
+    </div>
+</header>
+
+
+{% block body %}{% endblock %}
+
+<footer>
+    <div>
+        <p>© 2017 Blog AHD. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>
