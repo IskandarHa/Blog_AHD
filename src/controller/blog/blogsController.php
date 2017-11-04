@@ -1,7 +1,7 @@
 <?php
 
 require (__DIR__.'/../../manager/manager_ticket.php');
-require_once (__DIR__ . '/../../../twig.php');
+require (__DIR__ . '/../../../twig.php');
 
 $tickets = getTickets();
 
